@@ -1,0 +1,18 @@
+{  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Simple Express and PostgreSQL backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "fast-csv": "^5.0.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "pg": "^8.15.6"
+  }
+}
